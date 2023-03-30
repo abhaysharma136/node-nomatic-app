@@ -22,7 +22,8 @@ const PORT = 4000;
 //   },
 // ];
 
-const MOngo_URL = process.env.MOngo_URL;
+const MOngo_URL =
+  "mongodb+srv://abhaysharma136:8854892348absh@cluster0.dfdpejd.mongodb.net";
 
 async function createConnection() {
   const client = new MongoClient(MOngo_URL);
